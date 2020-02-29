@@ -18,5 +18,8 @@
     <ClCompile Include="P1_Vector_Octeti.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="P2_Bit_Permisiuni.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
