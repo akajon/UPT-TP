@@ -9,8 +9,8 @@ int verify(int pos, unsigned char utilizator)
 
 int main()
 {
-	unsigned char utilizator;
-	int opt,opt_set,opt_ver;
+	char utilizator;
+	int opt, opt_set, opt_ver;
 	//Initializare
 	utilizator = 0;
 	do
@@ -23,7 +23,7 @@ int main()
 			printf("Optiune gresita!\n");
 			break;
 		case 0:
-			exit (0);
+			exit(0);
 			break;
 		case 1:
 			printf("\n0. Iesire \n");
@@ -48,11 +48,6 @@ int main()
 			}
 			break;
 		case 2:
-			/*if (utilizator == 0)
-			{
-				printf("Utilizatorul nu detine permisiuni\n");
-				exit(0);
-			}*/
 			printf(" Read %d\n Write %d\n Delete %d\n Rename %d\n Copy %d\n", verify(1, utilizator), verify(2, utilizator), verify(3, utilizator), verify(4, utilizator), verify(5, utilizator));
 			break;
 		}

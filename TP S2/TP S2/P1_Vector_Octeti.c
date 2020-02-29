@@ -2,7 +2,7 @@
 //#include <stdlib.h>
 //int main()
 //{
-//	unsigned char Vector[126];
+//    char Vector[126];
 //	int i, opt, NewVal;
 //	//Initializarea vectorului
 //	for (i = 0; i < 126; i++)
